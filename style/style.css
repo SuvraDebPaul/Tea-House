@@ -1,0 +1,26 @@
+/* Google Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+/* Utility Class For Fonts */
+.d-font {
+  font-family: "Manrope", sans-serif;
+}
+
+:root {
+  --gradient: linear-gradient(90deg, #ff0000 0%, #ff8938 100%);
+  --gradient-dark: linear-gradient(90deg, #1c1d1f 0%, #595959 100%);
+  --text-color: #777777;
+  --heading-color: #1c1c1c;
+}
+.text-color {
+  color: var(--text-color);
+}
+.primary-gradient {
+  background: var(--gradient);
+}
+.primary-gradient-dark {
+  background: var(--gradient-dark);
+}
+.rating-color {
+  color: #fff082;
+}
